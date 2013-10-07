@@ -1,3 +1,59 @@
-.page-header {
+body {
+	background: url(http://static.panoramio.com/photos/large/28709239.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+#content{
+	color: white;
+	font-family: 'Iceberg', cursive;;
+}
+/*for ids*/
+#page-header {
 	text-align: center;
+	width: 800px;
+}
+
+
+/*for classes*/
+.title-text {
+	color: grey;
+	margin: 20px;
+}
+
+#profile-box {
+	width: 500px;
+	text-align: center;
+	float: left;
+}
+
+
+#profile-image {
+	height: 250px;
+	padding: 10px;
+	border: 10px solid gold;
+	background: grey;
+
+}
+
+#personal-information {
+	width: 300px;
+	text-align: center;
+	padding: 10px;
+	border: 10px solid gold;
+	float: left;
+	background: grey;
+}
+
+#hobbies ul {
+/*	list-style-type: none;*/
+	text-align: left;
 }
